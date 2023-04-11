@@ -6,6 +6,8 @@ img {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin-right: 500px;
+    text
 }
 .navbar {
     display: flex;
@@ -17,6 +19,7 @@ img {
     padding: 10px;
     font-size: 1.3em;
     justify-content: center;
+  
 }
 .imgcat{
     background-image: url(../img/slider-1.jpg);
@@ -27,9 +30,13 @@ img {
 }
 
 .cat {
+    color:white;
 
 }
 
+.cat h1 {
+    text-transform: uppercase;
+}
 .button {
     display: block;
     padding: 5px;
