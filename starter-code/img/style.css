@@ -1,0 +1,43 @@
+
+img {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+    font-size: 1.3em;
+    justify-content: center;
+}
+.imgcat{
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+.cat {
+
+}
+
+.button {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border-color: black;
+}
+
+.sectionred {
+    background-color: #ed564b;
+    color:white;
+}
