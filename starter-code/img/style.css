@@ -27,7 +27,7 @@ img {
     background-repeat: no-repeat;
     background-size:  cover;
     padding: 100px;
-
+    
 }
 
 .hero p {
@@ -74,14 +74,20 @@ img {
     fill: currentColor;
     background-color:white;
     align-items: center;
+    justify-items: center;
     
   }
+
 .redhr {
     color: #ed564b;
     background-color: #ed564b;
     height: 5px;
     border:none;
 
+}
+
+.whitesect {
+    padding: 100px;
 }
 .blacksect {
     background-color: #3b3b3b;
@@ -111,9 +117,13 @@ h1,h6 {
 .footer {
     background-color: #292929;
     color: white;
-    padding: 10px 0;
+    padding: 10px 0 0 40px;
 }
 
 .footer h6 {
     color:white;
+}
+
+h5 {
+font-weight: 100;    
 }
